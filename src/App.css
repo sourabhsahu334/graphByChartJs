@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Sidebar container */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f0f0f0;
+ 
+}
+
+/* Sidebar search bar */
+.sidebar-search input[type="text"] {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #e0e0e0;
+  margin-bottom: 16px;
+}
+
+/* Sidebar navigation */
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 8px;
+}
+
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.sidebar-nav a span {
+  margin-left: 16px;
+}
+
+.sidebar-nav a:hover {
+  background-color: #d0d0d0;
+  border-radius: 5px;
+}
+
+/* Sidebar table */
+.sidebar-table {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.sidebar-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sidebar-table th,
+.sidebar-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.sidebar-table th:first-child,
+.sidebar-table td:first-child {
+  width: 20px;
+}
+
+.sidebar-table th:nth-child(2),
+.sidebar-table td:nth-child(2) {
+  width: 120px;
+}
+
+.sidebar-table th:nth-child(3),
+.sidebar-table td:nth-child(3) {
+  width: 160px;
+}
+
+.sidebar-table th:nth-child(4),
+.sidebar-table td:nth-child(4) {
+  width: 160px;
+}
+
+.sidebar-table th:nth-child(5),
+.sidebar-table td:nth-child(5) {
+  width: 120px;
+}
+
+.sidebar-table th:nth-child(6),
+.sidebar-table td:nth-child(6) {
+  width: 100px;
+}
+
+.sidebar-table th:last-child,
+.sidebar-table td:last-child {
+  width: 120px;
+}
